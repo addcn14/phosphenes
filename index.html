@@ -14,6 +14,16 @@
     <!--/scripts + stylesheets-->
   </head>
   <body>
+  <!---fb crud --->
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <!---fb crud --->
     <nav class="navbar navbar-default nomargin">
       <div class="container-fluid">
         <div class="navbar-brand" href="#">The Phosphenes</a>
@@ -34,5 +44,12 @@
         <div class="jumbotron xs-col-12 centerstuff"><h1>Welcome to the Phosphenes Official Website!</h1></div>
       </div>
     </div>
+    <footer>
+      <ul>
+        <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</li>
+        <li></li>
+        
+      </ul>
+    </footer>
   </body>
 </html>
