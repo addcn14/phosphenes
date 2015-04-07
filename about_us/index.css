@@ -1,0 +1,11 @@
+#backgroundimage {
+  height:50vh;
+  background-image:url("Facebook-13.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  float:center;
+}
+.nomargin {
+  margin:0;
+}
