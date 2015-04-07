@@ -6,6 +6,6 @@
   background-attachment: fixed;
   float:center;
 }
-.nomargin {
-  margin:0;
+.whitefill {
+  background-color:white;
 }
