@@ -17,3 +17,6 @@ li{
   display:inline-block;
   clear:none;
 }
+.graycolor{
+  background-color:gray;
+}
