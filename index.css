@@ -4,4 +4,8 @@
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  float:center;
+}
+.noborder {
+  margin=0;
 }
