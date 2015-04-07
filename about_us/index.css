@@ -30,7 +30,6 @@ footer ul li {
   padding: 0px 5px;
 }
 #Megan {
-  height:25vh;
   float:center;
   background-image:url("Megan.jpg");
   background-repeat:no-repeat;
@@ -38,10 +37,7 @@ footer ul li {
   background-size:cover;
 }
 .box {
+  height:25vh;
   position:relative;
-  width: 50%;
-}
-.box:before{
-  display:block;
-  padding-top:100%;
+  width:25vh;
 }
