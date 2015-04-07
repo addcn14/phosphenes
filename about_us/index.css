@@ -37,7 +37,5 @@ footer ul li {
   background-size:cover;
 }
 .box {
-  height:25vh;
-  position:relative;
-  width:25vh;
+  height:50vh;
 }
