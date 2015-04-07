@@ -37,3 +37,11 @@ footer ul li {
   background-attachment:scroll;
   background-size:cover;
 }
+.box {
+  position:relative;
+  width: 50%;
+}
+.box:before{
+  display:block;
+  padding-top:100%;
+}
