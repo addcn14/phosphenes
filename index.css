@@ -12,7 +12,7 @@
 .centerstuff {
   text-align:center;
 }
-li{
+#bottom li{
   list-style-type:none;
   display:inline-block;
   clear:none;
@@ -24,4 +24,7 @@ footer ul{
 }
 footer ul li {
   padding: 0px 5px;
+}
+#eventheader li{
+  
 }
