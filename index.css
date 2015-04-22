@@ -1,3 +1,8 @@
+html {
+  margin:0px;
+  padding:0px;
+  overflow-x:hidden;
+}
 #backgroundimage {
   height:50vh;
   background-image:url("Facebook-13.jpg");
