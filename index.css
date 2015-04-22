@@ -25,6 +25,11 @@ footer ul{
 footer ul li {
   padding: 0px 5px;
 }
+#ueventheader li{
+  clear:both;
+  float:center;
+}
 #eventheader li{
-  
+  clear:both;
+  float:center;
 }
