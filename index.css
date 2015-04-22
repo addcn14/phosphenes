@@ -5,6 +5,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   float:center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .nomargin {
   margin:0;
