@@ -27,11 +27,11 @@ footer ul li {
 }
 #ueventheader li{
   clear:both;
-  float:center;
+  text-align:center;
   list-style-type:none;
 }
 #eventheader li{
   clear:both;
-  float:center;
+  text-align:center;
   list-style-type:none;
 }
