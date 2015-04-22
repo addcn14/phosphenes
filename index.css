@@ -28,8 +28,10 @@ footer ul li {
 #ueventheader li{
   clear:both;
   float:center;
+  list-style-type:none;
 }
 #eventheader li{
   clear:both;
   float:center;
+  list-style-type:none;
 }
