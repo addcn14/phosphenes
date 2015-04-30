@@ -1,10 +1,15 @@
+html {
+  margin:0px;
+  padding:0px;
+  overflow-x:hidden;
+}
 #backgroundimage {
   height:50vh;
   background-image:url("Facebook-13.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  float:center;
+  background-position:center center;
 }
 .nomargin {
   margin:0;
@@ -12,7 +17,7 @@
 .centerstuff {
   text-align:center;
 }
-li{
+#bottom li{
   list-style-type:none;
   display:inline-block;
   clear:none;
@@ -24,4 +29,14 @@ footer ul{
 }
 footer ul li {
   padding: 0px 5px;
+}
+#ueventheader li{
+  clear:both;
+  text-align:center;
+  list-style-type:none;
+}
+#eventheader li{
+  clear:both;
+  text-align:center;
+  list-style-type:none;
 }
