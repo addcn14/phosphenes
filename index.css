@@ -61,4 +61,5 @@ footer ul li {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3){ 
   background-size:100%;
+  background-attachment:scroll;
 }
