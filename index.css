@@ -6,7 +6,6 @@ html {
 #backgroundimage {
   height:50vh;
   background-image:url("Facebook-13.jpg");
-  background-size:100%;
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -40,4 +39,10 @@ footer ul li {
   clear:both;
   text-align:center;
   list-style-type:none;
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  background-size:100%;
 }
