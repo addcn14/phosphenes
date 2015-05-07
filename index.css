@@ -60,12 +60,20 @@ footer ul li {
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3){ 
-  -webkit-background-size:cover;
+    html, body{
+      width:100%;
+      height:100%;
+    }
+    #backgroundimage {
+    height:50%;
+    background-attachment: scroll;
+    }
+  /*-webkit-background-size:cover;
   -moz-background-size: cover;
   background-size: cover;
   background-attachment:scroll;
   body{
     height:100%;
     width:100%;
-  }
+  }*/
 }
