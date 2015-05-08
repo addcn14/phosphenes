@@ -78,6 +78,7 @@ html, body{
     #backgroundimage {
     height:50%;
     background-attachment: scroll;
+    background-size:100% auto;
     }
     /*starts here*/
     .navbar-default {
