@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Phosphenes Official Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
     <!--scripts + stylesheets-->
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="index.js"></script>
@@ -74,5 +75,19 @@
         
       </ul>
     </footer>
+    <!--scripts-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="viewport-units-buggyfill.js"></script>
+    <script>window.viewportUnitsBuggyfill.init({
+
+    // milliseconds to delay between updates of viewport-units
+    // caused by orientationchange, pageshow, resize events
+    refreshDebounceWait: 250,
+
+    // provide hacks plugin to make the contentHack property work correctly.
+    hacks: window.viewportUnitsBuggyfillHacks
+
+    });</script>
+    <!--scripts-->
   </body>
 </html>
