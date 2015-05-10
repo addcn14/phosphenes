@@ -140,10 +140,18 @@ html, body{
     height:50%;
     background-attachment: scroll;
     background-size:100% auto;
-    background:url("Facebook-13.jpg");
+    background:transparent;
     }
-   
+  html {
+    background:url("Facebook-13.jpg");
+    @media (max-width:768px){
+    	body{background-position: 50% 225px;}
+    }
+    @media (min-width:768px){
+    	body{background-position: 50% 50px;}
+    }
   }
+  }}
 /*5,5S*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio : 2) and (-webkit-max-device-pixel-ratio : 2.9){
   html, body{
