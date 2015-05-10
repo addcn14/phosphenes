@@ -24,12 +24,12 @@ html, body {height: 100%;}
 #wrap {
     min-height: 100%;
     height:auto;
-    margin:0 auto -60px;
-	padding-bottom: 0 0 60px; /* must be same height as the footer */
+    margin:0 auto -40px;
+	padding-bottom: 0 0 40px; /* must be same height as the footer */
 }  
 
 #footer {
-	height: 60px;} 
+	height: 40px;} 
 
 /*Opera Fix*/
 body:before {
