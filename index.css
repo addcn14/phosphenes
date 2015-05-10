@@ -130,7 +130,7 @@ html, body{
     color: #337ab7;
     background-color: #c3c3c3;
   }
-
+}
   /*here*/
   html, body{
       width:100%;
@@ -151,7 +151,7 @@ html, body{
     	body{background-position: 50% 50px;}
     }
   }
-  }}
+  }
 /*5,5S*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio : 2) and (-webkit-max-device-pixel-ratio : 2.9){
   html, body{
