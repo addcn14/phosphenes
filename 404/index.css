@@ -2,7 +2,7 @@ body{
 background-image: url("group.jpg");
 background-size:cover;
 background-position:center center;
-
+background-repeat: no-repeat;
 }
 footer ul li {
 padding: 0px 5px;
