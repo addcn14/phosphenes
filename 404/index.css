@@ -1,53 +1,165 @@
-body{
-background-image: url("group.jpg");
-background-size:cover;
-background-repeat: no-repeat;
+html {
+  margin:0px;
+  padding:0px;
+  overflow-x:hidden;
 }
-@media (max-width:768px){
-	body{background-position: 50% 225px;}
+#backgroundimage {
+  height:50vh;
+  background-image:url("Facebook-13.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center center;
 }
-@media (min-width:768px){
-	body{background-position: 50% 50px;}
+.nomargin {
+  margin:0;
 }
-
+.centerstuff {
+  text-align:center;
+}
+#bottom li{
+  list-style-type:none;
+  display:inline-block;
+  clear:none;
+}
+footer ul{
+  background-color:#eee;
+  padding:10px;
+  margin:0px;
+}
 footer ul li {
-padding: 0px 5px;
-list-style-type:none;
-display:inline-block;
-clear:none;
+  padding: 0px 5px;
 }
-footer ul {
-background-color:#eee;
-margin:0px;
-padding:10px;
+#ueventheader li{
+  clear:both;
+  text-align:center;
+  list-style-type:none;
 }
-.jumbotron{
-    background-color:transparent;
-    text-align:center
+#eventheader li{
+  clear:both;
+  text-align:center;
+  list-style-type:none;
 }
-/*sticky footer http://www.cssstickyfooter.com/using-sticky-footer-code.html*/
-html, body {height: 100%;}
+/*6, 6+*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio : 2)  and (-webkit-max-device-pixel-ratio : 2.9) {
+    html, body{
+      width:100%;
+      height:100%;
+    }
+    #backgroundimage {
+    height:50%;
+    background-attachment: scroll;
+    }
+  /*-webkit-background-size:cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment:scroll;
+  body{
+    height:100%;
+    width:100%;
+  }*/
+}
+ @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio : 3) and (-webkit-max-device-pixel-ratio : 3.9){
+html, body{
+      width:100%;
+      height:100%;
+    }
+    #backgroundimage {
+    height:50%;
+    background-attachment: scroll;
+    }
+}
+ /*4,4S*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio : 2) and (-webkit-max-device-pixel-ratio : 2.9){
+  /*here*/
+  .navbar-default {
+  background-color: #ffffff;
+  border-color: #c3c3c3;
+}
+.navbar-default .navbar-brand {
+  color: #000000;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #337ab7;
+}
+.navbar-default .navbar-text {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #337ab7;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #337ab7;
+  background-color: #c3c3c3;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #337ab7;
+  background-color: #c3c3c3;
+}
+.navbar-default .navbar-toggle {
+  border-color: #c3c3c3;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #c3c3c3;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #000000;
+}
+.navbar-default .navbar-link {
+  color: #000000;
+}
+.navbar-default .navbar-link:hover {
+  color: #337ab7;
+}
 
-#wrap {
-    min-height: 100%;
-    height:auto;
-    margin:0 auto -40px;
-    padding: 0 0 40px; /* must be same height as the footer */
-}  
-
-#footer {
-	height: 40px;} 
-
-.navbar {
-	margin:0px;
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #337ab7;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #337ab7;
+    background-color: #c3c3c3;
+  }
 }
-
-/*Opera Fix*/
-body:before {
-	content:"";
-	height:100%;
-	float:left;
-	width:0;
-	margin-top:-32767px;/
-}
-/*sticky footer*/
+  /*here*/
+  html, body{
+      width:100%;
+      height:100%;
+    }
+    #backgroundimage {
+    height:50%;
+    background-attachment: scroll;
+    background-size:100% auto;
+    background:transparent;
+    }
+  body {
+    background:url("Facebook-13.jpg");
+  }
+    @media (max-width:768px){
+    	body{background-position: 50% 225px;}
+    }
+    @media (min-width:768px){
+    	body{background-position: 50% 50px;}
+    }
+  }
+/*5,5S*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio : 2) and (-webkit-max-device-pixel-ratio : 2.9){
+  html, body{
+      width:100%;
+      height:100%;
+    }
+    #backgroundimage {
+    height:50%;
+    background-attachment: scroll;
+    }
+  }
