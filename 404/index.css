@@ -4,10 +4,10 @@ background-size:cover;
 background-repeat: no-repeat;
 }
 @media (max-width:768px){
-	body{background-position: 225 Y;}
+	body{background-position: 50% 225px;}
 };
 @media (min-width:768px){
-	body{background-position: 50 Y;}
+	body{background-position: 50% 50px;}
 };
 
 footer ul li {
