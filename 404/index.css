@@ -54,3 +54,6 @@ body:before {
 .row{
 margin:0px;
 }
+.navbar-nav {
+	margin:7.5px 0px;
+}
