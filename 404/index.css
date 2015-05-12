@@ -54,6 +54,8 @@ body:before {
 .row{
 margin:0px;
 }
-.navbar-nav {
-	margin:7.5px 0px;
+@media (max-width:767px) {
+	.navbar-nav {
+		margin:7.5px 0px;
+	}
 }
