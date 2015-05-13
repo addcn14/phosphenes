@@ -44,6 +44,9 @@ footer ul li {
   text-align:center;
   list-style-type:none;
 }
+.row {
+  margin:0px;
+}
 /*6, 6+*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio : 2)  and (-webkit-max-device-pixel-ratio : 2.9) {
     html, body{
