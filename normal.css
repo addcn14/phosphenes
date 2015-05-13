@@ -80,23 +80,6 @@ html, body{
     background-attachment: scroll;
     }
 }
- /*4,4S*/
-/*@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio : 2) and (-webkit-max-device-pixel-ratio : 2.9){
-  html, body{
-      width:100%;
-      height:100%;
-    }
-    #backgroundimage {
-    height:50%;
-    background-attachment: scroll;
-    background-size:100% auto;
-    background:transparent;
-    }
-  body {
-    background:url("Facebook-13.jpg");
-    background-position: 50% 225px;
-  }
-}*/
 /*5,5S*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio : 2) and (-webkit-max-device-pixel-ratio : 2.9){
   html, body{
