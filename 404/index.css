@@ -22,8 +22,9 @@ margin:0px;
 padding:10px;
 }
 .jumbotron{
-    background-color:#63CCCA;
-    text-align:center
+    background-color:transparent;
+    text-align:center;
+    color:#63CCCA;
 }
 /*sticky footer http://www.cssstickyfooter.com/using-sticky-footer-code.html*/
 html, body {height: 100%;}
