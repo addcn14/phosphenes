@@ -26,6 +26,10 @@ padding:10px;
     text-align:center;
     color:#63CCCA;
 }
+.sq{
+	height:20px;
+	width:20px;
+}
 /*sticky footer http://www.cssstickyfooter.com/using-sticky-footer-code.html*/
 html, body {height: 100%;}
 
