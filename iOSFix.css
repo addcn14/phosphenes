@@ -10,10 +10,10 @@ html, body{
 #backgroundimage {
   height:50%;
   background-image:url("Facebook-13.jpg");
-  background-size:auto;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment:scroll;
-  background-position:center center;
+  background-position: top;
 }
 /*body {
   background:url("Facebook-13.jpg");
