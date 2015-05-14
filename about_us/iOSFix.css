@@ -44,7 +44,7 @@ footer ul li {
 }
 /* landscape */
 @media screen and (orientation:landscape) {
-    #backgroundimage{
+   .box{
 	/* landscape-specific styles */
 	background-size: 100% auto;
     }
