@@ -1,5 +1,4 @@
 var index = function(){
-  var index = function(){
   if(/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) { 
     if(/OS [2-7]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent)) {  
       // iOS 2-7 so Do Something   
@@ -13,7 +12,5 @@ var index = function(){
   } else {
     $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
   }
-}
-$(document).ready(index)
 }
 $(document).ready(index)
