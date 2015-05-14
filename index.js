@@ -16,8 +16,9 @@ var index = function(){
   $("footer").click(function(){
     if(clicks<10){
       clicks++
+      console.log(clicks)
     } else {
-      window.location.href="/bandstuff";
+      //window.location.href="/bandstuff";
     }
   });
 }
