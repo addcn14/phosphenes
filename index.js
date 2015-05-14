@@ -15,7 +15,6 @@ var index = function(){
   var clicks = 0;
   $("footer").click(function(){
     if(clicks<10){
-      clicks++
       console.log(clicks)
     } else {
       //window.location.href="/bandstuff";
