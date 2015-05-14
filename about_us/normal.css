@@ -35,34 +35,21 @@ footer ul li {
 }
 .box {
   height:50vh;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  float:center;
 }
 #Justin {
-  float:center;
   background-image:url("Justin.jpg");
-  background-repeat:no-repeat;
-  background-attachment:scroll;
-  background-size:cover;
 }
 #Derek {
-  float:center;
-  background-image:url("Derek.jpg");
-  background-repeat:no-repeat;
-  background-attachment:scroll;
-  background-size:cover;
-}
+  background-image:url("Derek.jpg")
+  }
 #Daisy {
-  float:center;
   background-image:url("Daisy.jpg");
-  background-repeat:no-repeat;
-  background-attachment:scroll;
-  background-size:cover;
 }
 #Addison {
-  float:center;
   background-image:url("Addison.jpg");
-  background-repeat:no-repeat;
-  background-attachment:scroll;
-  background-size:cover;
 }
 .jumbotron {
   text-align:justify;
