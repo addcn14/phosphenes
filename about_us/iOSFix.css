@@ -37,7 +37,7 @@ footer ul li {
 }
 /* portrait */
 @media screen and (orientation:portrait) {
-    #backgroundimage{
+    .box{
 	/* portrait-specific styles */
 	background-size: auto 100%;
     }
