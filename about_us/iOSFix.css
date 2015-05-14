@@ -1,0 +1,68 @@
+.whitefill {
+  background-color:white;
+}
+.bandmemberparent h1{
+  text-align:left;
+  font-size:5em;
+}
+.bandmember h2{
+  text-align:center;
+  font-size:4em;
+}
+.bandmember p{
+  text-align:center;
+  font-size:2em;
+}
+li{
+  list-style-type:none;
+  display:inline-block;
+  clear:none;
+}
+footer ul{
+  background-color:#eee;
+  padding:10px;
+  margin:0px;
+}
+footer ul li {
+  padding: 0px 5px;
+}
+#Megan {
+  background-image:url("Megan.jpg");
+}
+.box {
+  height:50vh;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-size:cover;
+  float:center;
+}
+#Justin {
+  background-image:url("Justin.jpg");
+}
+#Derek {
+  background-image:url("Derek.jpg")
+  }
+#Daisy {
+  background-image:url("Daisy.jpg");
+}
+#Addison {
+  background-image:url("Addison.jpg");
+}
+.jumbotron {
+  text-align:justify;
+  padding:5vw;
+  margin:0px;
+}
+.jumbotron h1 {
+  text-align:center;
+}
+.navbar {
+  margin:0px;
+}
+#sq{
+  height:20px;
+  width:20px;
+}
+.row{
+  margin:0px;
+}
