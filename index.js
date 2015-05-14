@@ -12,7 +12,7 @@ var index = function(){
   } else {
     $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
   }
-  var clicks = 0;
+ /* var clicks = 0;
   $("footer").click(function(){
     if(clicks<10){
       console.log(clicks)
@@ -20,5 +20,5 @@ var index = function(){
       //window.location.href="/bandstuff";
     }
   });
-}
+}*/
 $(document).ready(index)
