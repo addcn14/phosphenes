@@ -12,5 +12,13 @@ var index = function(){
   } else {
     $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
   }
+  var clicks = 0;
+  $("footer").click(function(){
+    if(clicks<10){
+      clicks++
+    } else {
+      window.location.href="/bandstuff";
+    }
+  });
 }
 $(document).ready(index)
