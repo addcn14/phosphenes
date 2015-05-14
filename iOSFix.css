@@ -13,7 +13,7 @@ html, body{
   background-size: 100% auto;
   background-attachment:scroll;
   background-position:top;
-  background-repeat:none;
+  background-repeat:no-repeat;
 }
 /*body {
   background:url("Facebook-13.jpg");
