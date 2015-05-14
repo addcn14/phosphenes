@@ -33,8 +33,21 @@ footer ul li {
   height:50vh;
   background-repeat:no-repeat;
   background-attachment:scroll;
-  background-size:cover;
   float:center;
+}
+/* portrait */
+@media screen and (orientation:portrait) {
+    #backgroundimage{
+	/* portrait-specific styles */
+	background-size: auto 100%;
+    }
+}
+/* landscape */
+@media screen and (orientation:landscape) {
+    #backgroundimage{
+	/* landscape-specific styles */
+	background-size: 100% auto;
+    }
 }
 #Justin {
   background-image:url("Justin.jpg");
