@@ -29,7 +29,7 @@ var index = function(){
 }
 
 var ver = iOSversion();
-
+console.log(ver)
 if (ver[0] <7) {
   console.log('ios7')
   $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
