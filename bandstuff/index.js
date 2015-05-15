@@ -1,1 +1,1 @@
-window.history.pushState("", "", "phosphenes.tk");
+window.history.pushState("", "", "http://phosphenes.tk/");
