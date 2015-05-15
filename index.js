@@ -20,6 +20,7 @@ var index = function(){
   }*/
   //Here
   function iOSversion() {
+    console.log("iosversion")
   if (/iP(hone|od touch|ad)/.test(navigator.platform)) {
     // supports iOS 2.0 and later: <http://bit.ly/TJjs1V>
     var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
@@ -27,7 +28,7 @@ var index = function(){
   }
 }
 
-ver = iOSversion();
+var ver = iOSversion();
 
 if (ver[0] <7) {
   console.log('ios7')
@@ -37,7 +38,6 @@ if (ver[0] <7) {
 }
   //To here
   $("footer").click(function(){
-    console.log("5")
     if(clicks<10){
       clicks++
       console.log(clicks)
