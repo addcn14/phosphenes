@@ -19,6 +19,6 @@ var index = function(){
     } else {
       //window.location.href="/bandstuff";
     }
-  });
-}*/
+  });*/
+}
 $(document).ready(index)
