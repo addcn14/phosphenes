@@ -1,10 +1,12 @@
 var clicks = 0;
+console.log("0")
 var index = function(){
   if(/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) { 
+    console.log("1")
     if(/OS [2-7]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent)) {  
       // iOS 2-7 so Do Something   
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
-      console.log("worked")
+      console.log("2")
     } else if(/CPU like Mac OS X/i.test(navigator.userAgent)) {
       // iOS 1 so Do Something 
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
