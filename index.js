@@ -4,6 +4,7 @@ var index = function(){
     if(/OS [2-7]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent)) {  
       // iOS 2-7 so Do Something   
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
+      console.log("worked")
     } else if(/CPU like Mac OS X/i.test(navigator.userAgent)) {
       // iOS 1 so Do Something 
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
