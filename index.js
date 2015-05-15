@@ -4,9 +4,10 @@ var index = function(){
   if(/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) { 
     console.log("1")
     if(/OS [2-7]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent)) {  
+      console.log("2")
       // iOS 2-7 so Do Something   
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
-      console.log("2")
+      console.log("3")
     } else if(/CPU like Mac OS X/i.test(navigator.userAgent)) {
       // iOS 1 so Do Something 
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
@@ -14,9 +15,11 @@ var index = function(){
       // iOS 8 or Newer so Do Nothing
     }
   } else {
+    console.log("4")
     $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
   }
   $("footer").click(function(){
+    console.log("5")
     if(clicks<10){
       clicks++
       console.log(clicks)
@@ -25,4 +28,4 @@ var index = function(){
     }
   });
 }
-$(document).ready(index)
+$(document).ready(index);
