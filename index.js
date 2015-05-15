@@ -33,7 +33,7 @@ console.log(ver)
 if (ver[0] <7) {
   console.log('ios7')
   $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
-} else {
+} else if (ver[0] = undefined){
   console.log('computer')
   $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
 }
