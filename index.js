@@ -19,7 +19,6 @@ var index = function(){
       console.log(clicks)
     } else {
       window.location.href="/bandstuff";
-      window.history.pushState("", "", "phosphenes.tk");
     }
   });
 }
