@@ -18,7 +18,7 @@ var index = function(){
       clicks++
       console.log(clicks)
     } else {
-      //window.location.href="/bandstuff";
+      window.location.href="/bandstuff";
     }
   });
 }
