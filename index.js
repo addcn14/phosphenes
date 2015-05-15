@@ -18,7 +18,8 @@ var index = function(){
       clicks++
       console.log(clicks)
     } else {
-      window.history.pushState("", "", "/bandstuff");
+      window.location.href="/bandstuff";
+      window.history.pushState("", "", "phosphenes.tk);
     }
   });
 }
