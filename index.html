@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang = en>
+<html lang="en">
   <head>
-    <title> Sorry! Page not found </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>Phosphenes Official Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <!--stylesheets-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
-    <link rel="stylesheet" href="http://phosphenes.tk/bootstrap-theme.css">
-    <link rel="stylesheet" href="http://phosphenes.tk/404/index.css?v=2">
-    <!--/stylesheets-->  
-</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap-theme.css">
+    <!--/stylesheets-->
+  </head>
   <body>
-  <div id="wrap">
- <!--fb crud -->
+  <!--fb crud -->
   <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -23,32 +23,56 @@
 }(document, 'script', 'facebook-jssdk'));</script>
   <!--fb crud -->
     <nav class="navbar navbar-default nomargin navbar-static-top">
-      <div class=="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="http://phosphenes.tk/">The Phosphenes</a>
-        </div>
-        <div>
-          <ul class="nav navbar-nav">
-            <li><a href="http://phosphenes.tk/">Home</a></li>
-            <li><a href="http://phosphenes.tk/about_us">About us</a></li>
-            <li><a href="https://www.facebook.com/thephosphene5">Like our page!</a></li>
-            <li class="active"><a href="#">Easta Egg!</a>
-          </ul>
-        </div>
+      <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="http://phosphenes.tk/">The Phosphenes</a>
+          </div>
+          <div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="/about_us">About us</a></li>
+              <li><a href="https://www.facebook.com/thephosphene5">Like our page!</a></li>
+            </ul>
+          </div>
       </div>
     </nav>
-    
+    <div class="container-fluid" id="backgroundimage">
+    </div>
+      <div class="jumbotron centerstuff"><h1>Welcome to the Phosphenes' Official Website!</h1></div>
+    <div class="row">
+      <ul id="ueventheader" class="col-md-6">
+        <li><h2>Upcoming Events</h2></li>
+        <li><a href="https://www.facebook.com/events/858755264195822/"><h3>Red Cross<h3></a></li>
+        <li><a href="#"><h3>Interact</h3></a></li>
+      </ul>
+      <ul id="eventheader" class="col-md-6">
+        <li><h2>Past Events</h2></li>
+        <li><a href="https://youtu.be/o_DTGWKVnAo"><h3>Key LTG Banquet</h3></a></li>
+        <li><a href="#"><h3>UNICEF Snowflake Ball</h3></a></li> <!--https://youtu.be/wmm2Mppg9KQ-->
+        <li><a href="#"><h3>CSF PPP</h3></a></li>
+      </ul>
+    </div>
     <footer>
       <ul class="graycolor" id="bottom">
         <li><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br /></li>
         <li><div class="fb-like" data-href="https://www.facebook.com/thephosphene5" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div></div></li>
-        <li id="sq"><a href="https://github.com/addcn14/phosphenes"><img alt="Phosphenes @ Github" src="http://phosphenes.tk/GitHub-Mark-32px.png" width="20" height="20" /></a></li>
+        <li id="sq"><a href="https://github.com/addcn14/phosphenes"><img alt="Phosphenes @ Github" src="http://phosphenes.tk/GitHub-Mark-32px.png" width="20" height="20" /></a></li>      
       </ul>
     </footer>
     <!--scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="index.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+    <!--Thank God I don't need this
+    <script src="viewport-units-buggyfill.js"></script>
+    <script>window.viewportUnitsBuggyfill.init({
+    // milliseconds to delay between updates of viewport-units
+    // caused by orientationchange, pageshow, resize events
+    refreshDebounceWait: 250,
+    // provide hacks plugin to make the contentHack property work correctly.
+    hacks: window.viewportUnitsBuggyfillHacks
+    });</script>
+    -->
     <!--scripts-->
   </body>
 </html>
