@@ -18,7 +18,7 @@ var index = function(){
       clicks++
       console.log(clicks)
     } else {
-      window.location.replace("/bandstuff")
+      window.history.pushState("", "", "/bandstuff");
     }
   });
 }
