@@ -1,7 +1,7 @@
 var clicks = 0;
 console.log("0")
 var index = function(){
-  if(/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) { 
+  /*if(/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) { 
     console.log("1")
     if(/OS [2-7]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent)) {  
       console.log("2")
@@ -17,7 +17,25 @@ var index = function(){
   } else {
     console.log("4")
     $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
+  }*/
+  //Here
+  function iOSversion() {
+  if (/iP(hone|od touch|ad)/.test(navigator.platform)) {
+    // supports iOS 2.0 and later: <http://bit.ly/TJjs1V>
+    var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+    return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
   }
+}
+
+ver = iOSversion();
+
+if (ver[0] <7) {
+  console.log('ios7')
+  $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
+} else {
+  $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
+}
+  //To here
   $("footer").click(function(){
     console.log("5")
     if(clicks<10){
