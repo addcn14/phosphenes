@@ -63,7 +63,13 @@ if (ver!= undefined) {
     $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
   }
   //3rd time
-  if (ua = "modern"){
+    if (ua = "legacy") {
+    $('footer').css('cursor','pointer');
+    $(document).on('click', 'footer',  function(event) {
+      event.preventDefault()
+      window.location.replace("/bandstuff");
+    });
+  }
   $("footer").click(function(){
     if(clicks<10){
       clicks++
@@ -71,21 +77,6 @@ if (ver!= undefined) {
     } else {
       window.location.replace("/bandstuff");
     }
-  });
-  } else if (ua = "legacy") {
-    $('footer').css('cursor','pointer');
-    $(document).on('click', 'footer',  function(event) {
-      event.preventDefault()
-      window.location.replace("/bandstuff");
-    });
-$("footer").click(function(){
-    if(clicks<10){
-      clicks++
-      console.log(clicks)
-    } else {
-      window.location.replace("/bandstuff");
-    }
   }
-}
 }
 $(document).ready(index);
