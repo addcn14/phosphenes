@@ -24,11 +24,7 @@ var index = function(){
     $('footer').css('cursor','pointer');
     $(document).on('click', 'footer',  function(event) {
       event.preventDefault();
-      if(clicks<10){
-        clicks++;
-        console.log(clicks);
-      } else {
-        window.location.replace("/bandstuff");
+      window.location.replace("/bandstuff");
       }
     });
   }
