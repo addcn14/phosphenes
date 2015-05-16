@@ -45,21 +45,25 @@ if (ver!= undefined) {
   To here*/
   
   //3rd time
+  var ua = undefined;
   if (/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) {
     if (/OS [1-7](.*) like Mac OS X/i.test(navigator.userAgent)) {
       // iOS version is <= 4.
-      console.log('ios7 or lower')
+      var ua = "legacy";
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
     } else {
+      var ua = "modern";
       // iOS version is > 4.
       console.log("ios8")
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
     }
   } else {
+    var ua = "modern";
     console.log('computer')
     $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
   }
   //3rd time
+  if (ua = "modern"){
   $("footer").click(function(){
     if(clicks<10){
       clicks++
@@ -68,5 +72,12 @@ if (ver!= undefined) {
       window.location.replace("/bandstuff");
     }
   });
+  } else if (ua = "legacy") {
+    $('footer').css('cursor','pointer');
+    $(document).on('click', 'footer',  function(event) {
+      event.preventDefault()
+      window.location.replace("/bandstuff");
+    });
+  }
 }
 $(document).ready(index);
