@@ -9,7 +9,7 @@ var index = function(){
       ua = "legacy";
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
     } else {
-      ua = "modern";
+      ua = "ios8";
       // iOS version is > 4.
       console.log("ios8");
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
@@ -20,7 +20,7 @@ var index = function(){
     $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
   }
   //3rd time
-  if (ua == "legacy") {
+  if (ua == "legacy" || ua == "ios8") {
     $('footer').css('cursor','pointer');
     $(document).on('click', 'footer',  function(event) {
       event.preventDefault();
