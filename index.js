@@ -24,7 +24,7 @@ var index = function(){
     $('footer').css('cursor','pointer');
     $(document).on('click', 'footer',  function(event) {
       event.preventDefault();
-      window.location.replace("/bandstuff");
+      //window.location.replace("/bandstuff");
     });
   }
   $("footer").click(function(){
