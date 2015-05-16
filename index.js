@@ -18,7 +18,7 @@ var index = function(){
     console.log("4")
     $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
   }*/
-  //Here
+  /*Here
   function iOSversion() {
     console.log("iosversion")
   if (/iP(hone|od|ad)/.test(navigator.platform)) {
@@ -42,7 +42,24 @@ if (ver!= undefined) {
   console.log('computer')
   $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
 }
-  //To here
+  To here*/
+  
+  //3rd time
+  if (/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) {
+    if (/OS [1-7](.*) like Mac OS X/i.test(navigator.userAgent)) {
+      // iOS version is <= 4.
+      console.log('ios7 or lower')
+      $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css'') );
+    } else {
+      // iOS version is > 4.
+      console.log("ios8")
+      $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
+    }
+  } else {
+    console.log('computer')
+    $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
+  }
+  //3rd time
   $("footer").click(function(){
     if(clicks<10){
       clicks++
