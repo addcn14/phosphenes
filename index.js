@@ -1,15 +1,15 @@
 var clicks = 0;
 console.log("0")
 var index = function(){
-  /*if(/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) { 
+  /*if(/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) {
     console.log("1")
-    if(/OS [2-7]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent)) {  
+    if(/OS [2-7]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent)) {
       console.log("2")
-      // iOS 2-7 so Do Something   
+      // iOS 2-7 so Do Something
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
       console.log("3")
     } else if(/CPU like Mac OS X/i.test(navigator.userAgent)) {
-      // iOS 1 so Do Something 
+      // iOS 1 so Do Something
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
     } else {
       // iOS 8 or Newer so Do Nothing
@@ -43,7 +43,7 @@ if (ver!= undefined) {
   $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'normal.css') );
 }
   To here*/
-  
+
   //3rd time
   var ua = undefined;
   if (/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) {
@@ -86,5 +86,6 @@ $("footer").click(function(){
       window.location.replace("/bandstuff");
     }
   }
+}
 }
 $(document).ready(index);
