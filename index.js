@@ -78,6 +78,13 @@ if (ver!= undefined) {
       event.preventDefault()
       window.location.replace("/bandstuff");
     });
+$("footer").click(function(){
+    if(clicks<10){
+      clicks++
+      console.log(clicks)
+    } else {
+      window.location.replace("/bandstuff");
+    }
   }
 }
 $(document).ready(index);
