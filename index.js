@@ -49,7 +49,7 @@ if (ver!= undefined) {
     if (/OS [1-7](.*) like Mac OS X/i.test(navigator.userAgent)) {
       // iOS version is <= 4.
       console.log('ios7 or lower')
-      $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css'') );
+      $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
     } else {
       // iOS version is > 4.
       console.log("ios8")
