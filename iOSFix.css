@@ -27,7 +27,7 @@ html, body{
     #backgroundimage{
 	/* landscape-specific styles */
 	background-size: 100% auto;
-	background-position:top;
+	background-position:center top;
     }
 }
 /*body {
