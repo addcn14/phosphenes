@@ -39,15 +39,19 @@ footer ul li {
     .box{
 	/* portrait-specific styles */
 	height:240px;
+	width:290px;
 	background-position:center;
+	background-size:auto 100%;
     }
 }
 /* landscape */
 @media screen and (orientation:landscape) {
    .box{
 	/* landscape-specific styles */
-	height:450px;
+	height:290px;
+	width:240px;
 	background-position:top;
+	background-size:100% auto;
     }
 }
 #Justin {
