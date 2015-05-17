@@ -30,7 +30,6 @@ footer ul li {
   background-image:url("Megan.jpg");
 }
 .box {
-  height:240px;
   background-repeat:no-repeat;
   background-attachment:scroll;
   background-position:center;
@@ -39,14 +38,16 @@ footer ul li {
 @media screen and (orientation:portrait) {
     .box{
 	/* portrait-specific styles */
-	background-size: auto 100%;
+	width:290px;
+	background-position:center;
     }
 }
 /* landscape */
 @media screen and (orientation:landscape) {
    .box{
 	/* landscape-specific styles */
-	background-size: 100% auto;
+	height:450px;
+	background-position:top;
     }
 }
 #Justin {
