@@ -20,7 +20,6 @@ html, body{
     #backgroundimage{
 	/* portrait-specific styles */
 	background-size: auto 100%;
-	background-position:top;
     }
 }
 /* landscape */
@@ -28,6 +27,7 @@ html, body{
     #backgroundimage{
 	/* landscape-specific styles */
 	background-size: 100% auto;
+	background-position:top;
     }
 }
 /*body {
