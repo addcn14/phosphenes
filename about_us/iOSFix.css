@@ -51,7 +51,7 @@ footer ul li {
 	height:290px;
 	width:240px;
 	background-position:top;
-	background-size:100% auto;
+	background-size:auto 100%;
     }
 }
 #Justin {
