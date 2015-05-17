@@ -30,7 +30,8 @@ footer ul li {
   background-image:url("Megan.jpg");
 }
 .box {
-  height:735px;
+  height:240px;
+  width:auto;
   background-repeat:no-repeat;
   background-attachment:scroll;
   float:center;
@@ -63,7 +64,7 @@ footer ul li {
 }
 .jumbotron {
   text-align:justify;
-  padding:49px;
+  padding:16px;
   margin:0px;
 }
 .jumbotron h1 {
