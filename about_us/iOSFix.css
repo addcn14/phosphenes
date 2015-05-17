@@ -33,7 +33,7 @@ footer ul li {
   height:240px;
   background-repeat:no-repeat;
   background-attachment:scroll;
-  float:center;
+  background-position:center;
 }
 /* portrait */
 @media screen and (orientation:portrait) {
