@@ -7,6 +7,7 @@ var index = function(){
       // iOS 1 so Do Something 
       $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
     } else {
+      $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'iOSFix.css') );
       // iOS 8 or Newer so Do Nothing
     }
   } else {
