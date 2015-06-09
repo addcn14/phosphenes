@@ -36,4 +36,13 @@ var index = function(){
     }
   });
 }
+
+/*window load animations*/
+var spinner = function(){
+  setTimeout(function(){
+    $("body").addClass("loaded");
+  }, 3000);
+}
+
 $(document).ready(index);
+$(document).ready(spinner);
