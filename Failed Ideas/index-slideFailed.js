@@ -42,5 +42,17 @@ var spinner = function(){
   $("body").addClass("loaded");
 }
 
+/*window changes*/
+$("#aboutUsTab").click(function(){
+  $("#homeTab, #aboutUsTab").toggleClass("active");
+  $("body").removeClass();
+  $("body").addClass("aboutUs loaded");
+});
+$("#homeTab").click(function(){
+  $("#homeTab, #aboutUsTab").toggleClass("active")
+  $("body").removeClass();
+  $("body").addClass("home loaded");
+});
+
 $(document).ready(index);
 $(window).load(spinner);

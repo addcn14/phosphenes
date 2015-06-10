@@ -52,6 +52,38 @@ footer ul li {
   width:20px;
 }
 
+/*on exit*/
+.home #body_full{
+
+}
+.aboutUs #body_full{
+  transition-duration:1s;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  position:absolute;
+  -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+  -ms-transform: translateX(-100%);  /* IE 9 */
+  transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+  visibility:hidden;
+}
+.aboutUs .footerOut {
+  bottom: -40px;
+  position:absolute;
+}
+#aboutUs {
+  position:absolute;
+  visibility:hidden;
+  transform: translateX(100%);
+  top:50px;
+}
+.aboutUsLeave {
+  transition-duration:1s;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  position:absolute;
+  -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+  -ms-transform: translateX(-100%);  /* IE 9 */
+  transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+  visibility:hidden;
+}
 /*6, 6+*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio : 2)  and (-webkit-max-device-pixel-ratio : 2.9) {
     html, body{
